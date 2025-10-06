@@ -1,7 +1,7 @@
 name: Build, Test, and Push container image
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
 jobs:
   build:
     runs-on: ubuntu-latest
