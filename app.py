@@ -8,7 +8,7 @@ app = Flask(__name__)
 def index():
   secret = os.environ.get('SECRET')
   if secret is not None:
-    return "The secret is "+secret
+    return "SZILARD The secret is "+secret
   else:
     return "Secret not found"
 
